@@ -6,31 +6,29 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.concurrent.ExecutorService;
+/*import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
-
 import org.springframework.boot.logging.LogLevel;
-
 import com.microsoft.azure.AzureEnvironment;
 import com.microsoft.azure.credentials.ApplicationTokenCredentials;
 import com.microsoft.azure.management.Azure;
 import com.microsoft.azure.management.Azure.Authenticated;
 import com.microsoft.aad.adal4j.AuthenticationContext;
-import com.microsoft.aad.adal4j.AuthenticationResult;
+import com.microsoft.aad.adal4j.AuthenticationResult;*/
 
 
 
 public class FTServiceImpl implements FTService {
 	
-	int responseCode = 0;
-	String tenantId = "df518e78-ba34-443a-8738-572278ee65f9";
-	String username = "Ashwini.Gupta@enquero.com";
-	String password = "Ashwini1#1#";
-	String clientId = "223ca77c-f383-44dc-8ce0-6e34dcbad537";
-	String subscriptionId = "70c963c7-6882-4d09-a42a-b8217809f3b5";
+	//int responseCode = 0;
+	//String tenantId = "";
+	//String username = "";
+	//String password = "";
+	//String clientId = "223ca77c-f383-44dc-8ce0-6e34dcbad537";
+	//String subscriptionId = "70c963c7-6882-4d09-a42a-b8217809f3b5";
 	public String publishData(){
-		AuthenticationContext authContext = null;
+		/*AuthenticationContext authContext = null;
 		AuthenticationResult authResult = null;
 		ExecutorService service = null;
 		try {
@@ -59,9 +57,8 @@ public class FTServiceImpl implements FTService {
 			e.printStackTrace();
 		}finally {
 		    service.shutdown();
-		}
-		System.out.println("Deployed Successfully");
-		return "Success";
+		}*/
+		return "success";
 		
 	}
 	
